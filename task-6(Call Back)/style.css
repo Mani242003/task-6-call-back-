@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    color: white;
+    font-size: 150px;
+    letter-spacing: px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.timerEle{
+    background-image: url("./asset/bg.png.webp");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: "0.1s";
+    text-align: center;
+    overflow: hidden;
+   
+    opacity: 0.8;
+   
+}
+.timerEle>h1{
+    font-size: 200px;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+
+
+
+
